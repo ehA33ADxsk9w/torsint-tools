@@ -57,10 +57,16 @@ if [ ! -d "torbot" ]; then
     cd ..
 fi
 
-# 5. Scrapy
+#5 OnionScan
+if [ ! -d "OnionScan" ]; then
+    git clone https://github.com/s-rah/onionscan.git
+    cd onionscan
+    go build -o onionscan .
+
+# 6. Scrapy
 pip3 install scrapy
 
-# 6. gallery-dl
+# 7. gallery-dl
 pip3 install gallery-dl
 
 # Enable and start Tor service
