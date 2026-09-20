@@ -15,6 +15,7 @@ This script installs the following tools:
 - **TorCrawl** – dark web crawler
 - **OnionSearch** – search engine scraper for .onion sites
 - **TorBot** – OSINT tool for onion domains
+- **OnionScan** - Free and open source tool for investigating the Dark Web.
 - **Scrapy** – web scraping framework
 - **gallery-dl** – media scraper/downloader
 
